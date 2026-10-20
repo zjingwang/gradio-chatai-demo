@@ -1,0 +1,15 @@
+{
+  "llm": {
+    "enabled": true,
+    "base_url": "http://127.0.0.1:9/v1",
+    "api_key": "sk-regress",
+    "model": "regress-model",
+    "temperature": 0.3,
+    "max_tokens": 500,
+    "system_prompt": "回归测试提示词"
+  },
+  "ui": {
+    "theme": "Soft",
+    "server_port": 7905
+  }
+}
